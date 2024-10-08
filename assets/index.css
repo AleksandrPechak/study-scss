@@ -1,25 +1,46 @@
-.button {
-  background: teal;
-  background-position: center;
-  background-repeat: no-repeat;
+@charset "UTF-8";
+/* |=======================
+   | Додавання & Віднімання
+   |=======================
+ */
+.box {
+  width: 620px;
+  width: 580px;
+  width: 610px;
 }
-.button:hover, .button:focus {
-  color: blue;
+
+/* |=======================
+   | Множення & Ділення
+   |=======================
+ */
+.box {
+  width: 1200px;
+  width: 1250px;
+  width: 1300px;
+  width: 120;
+  width: 300px;
+  width: 300px;
 }
-.button .button-ikon {
-  width: 20px;
-  height: 20px;
+
+/* |=======================
+   | Інтеполяція
+   |=======================
+ */
+.box {
+  width: 200px;
 }
-.button .button-ikon:hover {
-  width: 50px;
-  height: 50px;
+
+.box {
+  width: 200px;
+  width: -webkit-calc(100px * 2);
+  width: -moz-calc(100px * 2);
+  width: calc(100px * 2);
 }
-.button:hover .button .button-ikon {
-  font-size: 20px;
-}
-.button .button-lable {
-  font-size: 16px;
-}
-.button:hover .button .button-lable {
-  font-size: 20px;
+
+/* |=======================
+   | Examples
+   |=======================
+ */
+.box {
+  margin: 100px;
 }

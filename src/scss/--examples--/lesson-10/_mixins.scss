@@ -1,0 +1,44 @@
+// @mixin frame-size($width, $hight: $width) {
+//   width: $width;
+//   height: $hight;
+// }
+
+// %size {
+//   width: 150px;
+//   height: 150px;
+// }
+
+// .avatar {
+//   @include frame-size(150px);
+//   @extend %size;
+
+//   border-radius: 50%;
+// }
+
+// .icon {
+//   @include frame-size(150px);
+//   @extend %size;
+
+//   border: 2px solid lightblue;
+// }
+
+// Arguments
+// @mixin position-center {position: absolute;
+// top: 50%;
+// left:50%;
+// transform: translate (-50%, -50%);}
+
+// .decoration {
+//   @include position-center;
+// }
+
+@mixin position ($position-type, $position_x, $position-y, $offset-x, $offset-y ) {
+  position: $position-type;
+  top: $position-y;
+  left: $position-x;
+  transform: translate($offset-x, $offset-y);
+}
+
+.decoration {
+  @include position(absolute, 50%, 50%, -50%, -50%);
+}

@@ -1,23 +1,15 @@
-.btn-success {
-  border: 2px solid lightgreen;
-  color: lightgreen;
+.fw-400 {
+  font-weight: 400;
 }
 
-.btn-error {
-  border: 2px solid tomato;
-  color: tomato;
+.fw-500 {
+  font-weight: 500;
 }
 
-.btn-info {
-  border: 2px solid lightblue;
-  color: lightblue;
+.fw-600 {
+  font-weight: 600;
 }
 
-.button {
-  background-color: white;
-  border: 1px solid darkblue;
-}
-.button:not([disabled]):hover {
-  color: white;
-  background-color: darkblue;
+.fw-700 {
+  font-weight: 700;
 }
